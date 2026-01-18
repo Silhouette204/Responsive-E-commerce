@@ -9,8 +9,9 @@ export default defineConfig({
       input: {
         main: "index.html",
         about: "about.html",
-         contact: "contacts.html",
-          blog: "blog.html",
+         products: "products.html",
+          contact: "contacts.html",
+           blog: "blog.html",
       },
     },
   },
