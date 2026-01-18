@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+  <title>Document</title>
+</head>
+<body class="bg-primary line-height-1.6 text-dark font-poppins">
+    <nav class="relative flex justify-between items-center h-17.5 z-1000 bg-primary text-dark px-10
+
+     md:h-17.5"
+    >
+    
+    <a href="#" class="text-3xl text-light hover:text-secondary transition duration-300 ease-in-out font-semibold">Logo</a>
+
+<button id="menu-btn" class="block md:hidden focus:outline-none cursor-pointer text-2xl">
+    <i id="menu-icon" class="fa-solid fa-bars  text-light hover:text-secondary transition duration-300 ease-in-out"></i>
+  </button>
+
+          <ul
+  id="menu"
+  class="
+    absolute top-17 right-0 w-full
+    bg-secondary/10 backdrop-blur-md
+    flex flex-col items-center text-center
+    z-10000
+
+    opacity-0 translate-y-2.5 pointer-events-none
+    transition-all duration-300 ease-out
+
+    md:static md:flex md:flex-row md:translate-y-0 md:opacity-100 md:pointer-events-auto
+    md:bg-transparent md:w-auto md:space-x-8
+  "
+>
+        <li class="link-nav"> <a href="index.html">Home</a> </li>
+        <li class="link-nav"> <a href="about.html">About</a> </li>
+        <li class="link-nav"> <a href="products.html">Products</a> </li>
+        <li class="link-nav"> <a href="contacts.html">Contacts</a> </li>
+         <li class="link-nav"> <a href="blog.html">Blogs</a> </li>
+      </ul>
+    </nav>
+
+<section id="contact" class="my-20 px-10">
+<div class="container-1"> 
+  <h1 class="text-light font-bold text-5xl my-10">Get in Touch</h1>
+  <p class="text-lg text-dark font-semibold my-10">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquid hic sequi necessitatibus! Ullam tenetur nostrum odio natus. Tenetur necessitatibus maxime mollitia error eos hic rerum animi debitis in voluptatibus! A. Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero, vel?</p>
+</div>
+
+<form action="#" method="post" class="grid gap-6 max-w-3xl mx-auto">
+    <p class=" text-secondary">Name:</p>
+
+  <div class="grid md:grid-cols-2 gap-6">
+    <input
+      type="text"
+      name="first_name"
+      placeholder="First Name"
+      class="p-3 rounded-md bg-light font-semibold"
+      required
+    />
+
+    <input
+      type="text"
+      name="last_name"
+      placeholder="Last Name"
+      class="p-3 rounded-md bg-light font-semibold"
+      required
+    />
+  </div>
+
+  <p class=" text-secondary">Address:</p>
+  <input
+    type="text"
+    name="address"
+    placeholder="Address"
+    class="p-3 rounded bg-light font-semibold"
+  />
+
+  <p class=" text-secondary">Email:</p>
+  <input
+    type="email"
+    name="email"
+    placeholder="Email"
+    class="p-3 rounded bg-light font-semibold"
+    required
+  />
+
+  <p class="text-secondary">Contact No:</p>
+  <input
+    type="tel"
+    name="number"
+    placeholder="Phone Number"
+    class="p-3 rounded bg-light font-semibold"
+  />
+
+  <p class="text-secondary">Type:</p>
+  <select
+    name="watch_type"
+    class="p-3 rounded bg-light font-semibold"
+  >
+    <option value="">Type of watch</option>
+    <option value="rolex">Rolex</option>
+    <option value="fossil">Fossil</option>
+    <option value="g-shock">G-Shock</option>
+    <option value="taguer">Taguer</option>
+  </select>
+
+  <p class="text-secondary">Message:</p>
+  <textarea
+    name="message"
+    placeholder="Message"
+    class="p-3 h-40 rounded bg-light font-semibold"
+    required
+  ></textarea>
+
+  <button
+    type="submit"
+    class="bg-light mx-auto px-8 py-2 rounded-3xl font-semibold hover:bg-dark hover:text-light transition"
+  >
+    Submit
+  </button>
+
+</form>
+
+</section>
+
+<section id="contact-banner" class="bg-light max-w-3xl my-20 mx-auto rounded-2xl">
+ <div class="p-10">
+  <h1 class="text-center text-dark text-4xl font-bold">Connect-With-Us</h1>
+  <p class="text-center my-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus rem fugiat sequi harum voluptas veritatis autem expedita quod, perspiciatis eligendi.</p>
+ </div>
+</section>
+
+<section id="info ">
+  <div class="container-1">
+  <h1 class="text-4xl text-center text-light font-semibold">Have a Question?</h1>
+  <p class="my-10 mx-15">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum maxime tenetur odit sint quae sed deleniti molestiae. Ea saepe consectetur id exercitationem, ducimus error animi necessitatibus optio minima, dolore obcaecati? 
+  </p>
+
+  <p class="my-10 mx-15">
+   Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam nesciunt blanditiis obcaecati voluptate saepe quo assumenda earum maxime voluptates debitis sunt atque.</p>
+
+   <ul class="flex flex-col justify-center items-baseline gap-2 mx-15 my-15">
+    <li class="text-light"><i class="fa-regular fa-envelope mr-3"></i>DevLoop.KabayanWatch.com</li>
+    <li class="text-light"><i class="fa-solid fa-phone mr-3"></i>+63 912-3456-789</li>
+    <li class="text-light"><i class="fa-regular fa-comment mr-3"></i>Connect With Us</li>
+   </ul>
+   </div>
+</section>
+</body>
+
+  <footer>
+   <div class=" px-10 bg-dark h-full lg:flex justify-evenly lg:px-50">
+    <h1 class="text-3xl py-10 text-secondary hover:text-primary font-bold cursor:pointer transition duration-300 ease-in-out lg:py-5"><a href="">LOGO</a></h1>
+
+    <div class=" text-light pt-6"> 
+      <h1 class="text-md font-medium text-secondary">NAVIGATION</h1>   
+     <ul class="flex-col justify-between align-columns ">
+      <li class="my-2 font-medium hover:text-primary "><a href="">Home</a></li>
+      <li class="my-2 font-medium hover:text-primary"><a href="">About</a></li>
+      <li class="my-2 font-medium hover:text-primary"><a href="">Features</a></li>
+      <li class="my-2 font-medium hover:text-primary"><a href="">Menu</a></li>
+     </ul>
+    </div>
+
+    <div class=" text-light pt-6 lg:mx-20"> 
+      <h1 class="text-md font-medium text-secondary">CONTACTS</h1>   
+     <ul class="flex-col justify-between align-columns ">
+      <li class="my-2 font-medium hover:text-primary "><a href="">Email:</a></li>
+      <li class="my-2 font-medium hover:text-primary"><a href="">Phone:</a></li>
+      <li class="my-2 font-medium hover:text-primary"><a href="">Address:</a></li>
+     </ul>
+    </div>
+
+    <div class=" text-light pt-6 lg:mx-20"> 
+      <h1 class="text-md font-medium text-secondary">USEFUL LINKS</h1>   
+     <ul class="flex-col justify-between align-columns ">
+      <li class="my-2 font-medium hover:text-primary "><a href="">Taguer</a></li>
+      <li class="my-2 font-medium hover:text-primary"><a href="">Fossil</a></li>
+      <li class="my-2 font-medium hover:text-primary"><a href="">Rolex</a></li>
+       <li class="my- font-medium hover:text-primary"><a href="">G-shock</a></li>
+     </ul>
+    </div>
+
+    <div class="py-10">
+      <ul class="flex space-x-6 text-2xl  items-center">
+        <li class="bg-primary text-secondary px-2 py-1 rounded-3xl hover:cursor-pointer"><i class="fa-brands fa-instagram"></i></li>
+        <li class="bg-primary text-secondary px-2 py-1 rounded-3xl hover:cursor-pointer"><i class="fa-brands fa-facebook"></i></li>
+        <li class="bg-primary text-secondary px-2 py-1 rounded-3xl hover:cursor-pointer"><i class="fa-brands fa-x-twitter"></i></li>
+      </ul> 
+
+       <h3 class="text-light text-center mt-10 lg:bg-dark lg:py-5">
+      &copy; 2026 DevLoop. All rights reserved.
+    </h3> 
+    </div>
+    </div>
+     
+  </footer>
+<script type="module" src="/src/main.js"></script>
+</html>
