@@ -111,14 +111,14 @@ function renderProducts(brand) {
         <p class="text-light my-1">${product.type}</p>
         <p class="text-secondary my-1">${product.price}</p>
         
-        <ul class="flex justify-between items-center mt-5">
+        <ul class="flex gap-5 flex-col md:flex-col lg:flex-col justify-between items-center mt-5">
           <li>
             <a href="#" class="rounded-4xl bg-primary py-3 px-4 font-semibold text-light hover:bg-secondary hover:text-dark hover:duration-300 ease-in-out">
               Buy Now
             </a>
           </li>
           <li>
-            <i class="fa-solid fa-cart-shopping text-light border-2 p-2 rounded-3xl hover:border-primary hover:text-primary hover:duration-300 ease-in-out"></i>
+            <i class=" fa-solid fa-cart-shopping text-light border-2 p-2 rounded-3xl hover:border-primary hover:text-primary hover:duration-300 ease-in-out"></i>
           </li>
         </ul>
       </div>
